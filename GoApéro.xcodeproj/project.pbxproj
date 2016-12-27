@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BE05511E12823C00BF44DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05501E12823C00BF44DC /* AppDelegate.swift */; };
+		D9BE05531E12823C00BF44DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05521E12823C00BF44DC /* ViewController.swift */; };
+		D9BE05561E12823C00BF44DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BE05541E12823C00BF44DC /* Main.storyboard */; };
+		D9BE05581E12823C00BF44DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BE05571E12823C00BF44DC /* Assets.xcassets */; };
+		D9BE055B1E12823C00BF44DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BE05591E12823C00BF44DC /* LaunchScreen.storyboard */; };
+		D9BE05661E12823C00BF44DC /* GoApe_roTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05651E12823C00BF44DC /* GoApe_roTests.swift */; };
+		D9BE05711E12823C00BF44DC /* GoApe_roUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05701E12823C00BF44DC /* GoApe_roUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9BE05621E12823C00BF44DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BE05451E12823C00BF44DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BE054C1E12823C00BF44DC;
+			remoteInfo = "GoApéro";
+		};
+		D9BE056D1E12823C00BF44DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BE05451E12823C00BF44DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BE054C1E12823C00BF44DC;
+			remoteInfo = "GoApéro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9BE054D1E12823C00BF44DC /* GoApéro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoApéro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BE05501E12823C00BF44DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9BE05521E12823C00BF44DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9BE05551E12823C00BF44DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9BE05571E12823C00BF44DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9BE055A1E12823C00BF44DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9BE055C1E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BE05611E12823C00BF44DC /* GoApéroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoApéroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BE05651E12823C00BF44DC /* GoApe_roTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoApe_roTests.swift; sourceTree = "<group>"; };
+		D9BE05671E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BE056C1E12823C00BF44DC /* GoApéroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoApéroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BE05701E12823C00BF44DC /* GoApe_roUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoApe_roUITests.swift; sourceTree = "<group>"; };
+		D9BE05721E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BE054A1E12823C00BF44DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE055E1E12823C00BF44DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE05691E12823C00BF44DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9BE05441E12823C00BF44DC = {
+			isa = PBXGroup;
+			children = (
+				D9BE054F1E12823C00BF44DC /* GoApéro */,
+				D9BE05641E12823C00BF44DC /* GoApéroTests */,
+				D9BE056F1E12823C00BF44DC /* GoApéroUITests */,
+				D9BE054E1E12823C00BF44DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9BE054E1E12823C00BF44DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE054D1E12823C00BF44DC /* GoApéro.app */,
+				D9BE05611E12823C00BF44DC /* GoApéroTests.xctest */,
+				D9BE056C1E12823C00BF44DC /* GoApéroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9BE054F1E12823C00BF44DC /* GoApéro */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE05501E12823C00BF44DC /* AppDelegate.swift */,
+				D9BE05521E12823C00BF44DC /* ViewController.swift */,
+				D9BE05541E12823C00BF44DC /* Main.storyboard */,
+				D9BE05571E12823C00BF44DC /* Assets.xcassets */,
+				D9BE05591E12823C00BF44DC /* LaunchScreen.storyboard */,
+				D9BE055C1E12823C00BF44DC /* Info.plist */,
+			);
+			path = "GoApéro";
+			sourceTree = "<group>";
+		};
+		D9BE05641E12823C00BF44DC /* GoApéroTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE05651E12823C00BF44DC /* GoApe_roTests.swift */,
+				D9BE05671E12823C00BF44DC /* Info.plist */,
+			);
+			path = "GoApéroTests";
+			sourceTree = "<group>";
+		};
+		D9BE056F1E12823C00BF44DC /* GoApéroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE05701E12823C00BF44DC /* GoApe_roUITests.swift */,
+				D9BE05721E12823C00BF44DC /* Info.plist */,
+			);
+			path = "GoApéroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9BE054C1E12823C00BF44DC /* GoApéro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BE05751E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéro" */;
+			buildPhases = (
+				D9BE05491E12823C00BF44DC /* Sources */,
+				D9BE054A1E12823C00BF44DC /* Frameworks */,
+				D9BE054B1E12823C00BF44DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoApéro";
+			productName = "GoApéro";
+			productReference = D9BE054D1E12823C00BF44DC /* GoApéro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9BE05601E12823C00BF44DC /* GoApéroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BE05781E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéroTests" */;
+			buildPhases = (
+				D9BE055D1E12823C00BF44DC /* Sources */,
+				D9BE055E1E12823C00BF44DC /* Frameworks */,
+				D9BE055F1E12823C00BF44DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BE05631E12823C00BF44DC /* PBXTargetDependency */,
+			);
+			name = "GoApéroTests";
+			productName = "GoApéroTests";
+			productReference = D9BE05611E12823C00BF44DC /* GoApéroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9BE056B1E12823C00BF44DC /* GoApéroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BE057B1E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéroUITests" */;
+			buildPhases = (
+				D9BE05681E12823C00BF44DC /* Sources */,
+				D9BE05691E12823C00BF44DC /* Frameworks */,
+				D9BE056A1E12823C00BF44DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BE056E1E12823C00BF44DC /* PBXTargetDependency */,
+			);
+			name = "GoApéroUITests";
+			productName = "GoApéroUITests";
+			productReference = D9BE056C1E12823C00BF44DC /* GoApéroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BE05451E12823C00BF44DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mehdy Bouida";
+				TargetAttributes = {
+					D9BE054C1E12823C00BF44DC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D9BE05601E12823C00BF44DC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9BE054C1E12823C00BF44DC;
+					};
+					D9BE056B1E12823C00BF44DC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9BE054C1E12823C00BF44DC;
+					};
+				};
+			};
+			buildConfigurationList = D9BE05481E12823C00BF44DC /* Build configuration list for PBXProject "GoApéro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9BE05441E12823C00BF44DC;
+			productRefGroup = D9BE054E1E12823C00BF44DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9BE054C1E12823C00BF44DC /* GoApéro */,
+				D9BE05601E12823C00BF44DC /* GoApéroTests */,
+				D9BE056B1E12823C00BF44DC /* GoApéroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9BE054B1E12823C00BF44DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BE055B1E12823C00BF44DC /* LaunchScreen.storyboard in Resources */,
+				D9BE05581E12823C00BF44DC /* Assets.xcassets in Resources */,
+				D9BE05561E12823C00BF44DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE055F1E12823C00BF44DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE056A1E12823C00BF44DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BE05491E12823C00BF44DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BE05531E12823C00BF44DC /* ViewController.swift in Sources */,
+				D9BE05511E12823C00BF44DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE055D1E12823C00BF44DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BE05661E12823C00BF44DC /* GoApe_roTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BE05681E12823C00BF44DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BE05711E12823C00BF44DC /* GoApe_roUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9BE05631E12823C00BF44DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BE054C1E12823C00BF44DC /* GoApéro */;
+			targetProxy = D9BE05621E12823C00BF44DC /* PBXContainerItemProxy */;
+		};
+		D9BE056E1E12823C00BF44DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BE054C1E12823C00BF44DC /* GoApéro */;
+			targetProxy = D9BE056D1E12823C00BF44DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9BE05541E12823C00BF44DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BE05551E12823C00BF44DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9BE05591E12823C00BF44DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BE055A1E12823C00BF44DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9BE05731E12823C00BF44DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9BE05741E12823C00BF44DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9BE05761E12823C00BF44DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GoApéro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-ro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9BE05771E12823C00BF44DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GoApéro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-ro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D9BE05791E12823C00BF44DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GoApéroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-roTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoApéro.app/GoApéro";
+			};
+			name = Debug;
+		};
+		D9BE057A1E12823C00BF44DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GoApéroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-roTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoApéro.app/GoApéro";
+			};
+			name = Release;
+		};
+		D9BE057C1E12823C00BF44DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GoApéroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-roUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GoApéro";
+			};
+			name = Debug;
+		};
+		D9BE057D1E12823C00BF44DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GoApéroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mehdy.GoApe-roUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GoApéro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9BE05481E12823C00BF44DC /* Build configuration list for PBXProject "GoApéro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BE05731E12823C00BF44DC /* Debug */,
+				D9BE05741E12823C00BF44DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BE05751E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BE05761E12823C00BF44DC /* Debug */,
+				D9BE05771E12823C00BF44DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9BE05781E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BE05791E12823C00BF44DC /* Debug */,
+				D9BE057A1E12823C00BF44DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9BE057B1E12823C00BF44DC /* Build configuration list for PBXNativeTarget "GoApéroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BE057C1E12823C00BF44DC /* Debug */,
+				D9BE057D1E12823C00BF44DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BE05451E12823C00BF44DC /* Project object */;
+}
