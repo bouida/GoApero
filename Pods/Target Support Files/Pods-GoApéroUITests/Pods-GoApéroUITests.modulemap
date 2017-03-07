@@ -1,0 +1,6 @@
+framework module Pods_GoApe_roUITests {
+  umbrella header "Pods-GoApéroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

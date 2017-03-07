@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GoApe&#x301;ro.xcodeproj">
+      location = "container:">
    </FileRef>
 </Workspace>
