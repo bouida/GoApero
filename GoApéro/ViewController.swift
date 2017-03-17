@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FBSDKLoginKit
+import TwitterKit
 
 class ViewController: UIViewController {
 
@@ -85,8 +87,61 @@ class ViewController: UIViewController {
         }
         
         
+            }
+    
+    @IBAction func facebookLogin(_ sender: UIButton) { let fbLoginManager = FBSDKLoginManager()
+        fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
+            if let error = error {
+                print("Failed to login: \(error.localizedDescription)")
+                return
+            }
+            
+            guard let accessToken = FBSDKAccessToken.current() else {
+                print("Failed to get access token")
+                return
+            }
+            
+            let credential = FIRFacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)
+            
+            // Perform login by calling Firebase APIs
+            FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
+                if let error = error {
+                    print("Login error: \(error.localizedDescription)")
+                    let alertController = UIAlertController(title: "Login Error", message: error.localizedDescription, preferredStyle: .alert)
+                    let okayAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    alertController.addAction(okayAction)
+                    self.present(alertController, animated: true, completion: nil)
+                    
+                    return
+                }
+                
+                // Present the main view
+                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
+                    UIApplication.shared.keyWindow?.rootViewController = viewController
+                    self.dismiss(animated: true, completion: nil)
+                }
+                
+            })
+            
+        }
         
+        let logInButton = TWTRLogInButton(logInCompletion: { session, error in
+            if (session != nil) {
+                let authToken = session?.authToken
+                let authTokenSecret = session?.authTokenSecret
+                let credential = FIRTwitterAuthProvider.credential(withToken: (session?.authToken)!, secret: (session?.authTokenSecret)!)
+            } else {
+                // ...
+            }
+        })
+    logInButton.center=self.view.center
+    self.view.addSubview(logInButton)
     }
+    
+    
+}
+        
+
     
     
     // A modifier 
@@ -129,6 +184,6 @@ class ViewController: UIViewController {
  }
  }
  }*/
- 
-}
+
+
 

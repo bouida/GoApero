@@ -18,5 +18,11 @@ target 'GoApéro' do
   end
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-
+  # Pods for Facebook
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  # Pods for Twitter
+  pod 'Fabric'
+  pod 'TwitterKit'
 end

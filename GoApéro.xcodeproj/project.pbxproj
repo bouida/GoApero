@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D46DEF21E78340F00119E7E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D46DEF11E78340F00119E7E /* Info.plist */; };
+		7D804AA01E6EC19B004B945C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D804A9F1E6EC19B004B945C /* GoogleService-Info.plist */; };
 		B27EEBE61C4E35798082BFE2 /* Pods_GoApe_ro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E4E63DFCB762891347DDF /* Pods_GoApe_ro.framework */; };
 		C3E98552A411144B4FEFBB33 /* Pods_GoApe_roTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B7AFCDFDB48481CAF6330B /* Pods_GoApe_roTests.framework */; };
-		D91F2A581E6DB808008A0E74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91F2A571E6DB808008A0E74 /* GoogleService-Info.plist */; };
-		D91F2A591E6DB808008A0E74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91F2A571E6DB808008A0E74 /* GoogleService-Info.plist */; };
-		D91F2A5A1E6DB808008A0E74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91F2A571E6DB808008A0E74 /* GoogleService-Info.plist */; };
 		D9A898281E3AB24D00EB03AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05501E12823C00BF44DC /* AppDelegate.swift */; };
 		D9A898291E3AB24F00EB03AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05501E12823C00BF44DC /* AppDelegate.swift */; };
 		D9A8982A1E3AB25000EB03AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE05501E12823C00BF44DC /* AppDelegate.swift */; };
@@ -48,19 +47,18 @@
 		444E4E63DFCB762891347DDF /* Pods_GoApe_ro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoApe_ro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C7D92AECDDE58DC69AA414 /* Pods-GoApéro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoApéro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoApéro/Pods-GoApéro.debug.xcconfig"; sourceTree = "<group>"; };
 		555334298B68DB109B663E26 /* Pods-GoApéroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoApéroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoApéroTests/Pods-GoApéroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D46DEF11E78340F00119E7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../GoApero-mams-nonOp/GoApéro/Info.plist"; sourceTree = "<group>"; };
+		7D804A9F1E6EC19B004B945C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		88B7AFCDFDB48481CAF6330B /* Pods_GoApe_roTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoApe_roTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76B3AA600964E6423F65D21 /* Pods_GoApe_roUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoApe_roUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91F2A571E6DB808008A0E74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D9BE054D1E12823C00BF44DC /* GoApéro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoApéro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BE05501E12823C00BF44DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BE05521E12823C00BF44DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9BE05551E12823C00BF44DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9BE05571E12823C00BF44DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BE055A1E12823C00BF44DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9BE055C1E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9BE05611E12823C00BF44DC /* GoApéroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoApéroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BE05651E12823C00BF44DC /* GoApe_roTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoApe_roTests.swift; sourceTree = "<group>"; };
-		D9BE05671E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9BE056C1E12823C00BF44DC /* GoApéroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoApéroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BE05701E12823C00BF44DC /* GoApe_roUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoApe_roUITests.swift; sourceTree = "<group>"; };
 		D9BE05721E12823C00BF44DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,13 +128,13 @@
 		D9BE054F1E12823C00BF44DC /* GoApéro */ = {
 			isa = PBXGroup;
 			children = (
+				7D46DEF11E78340F00119E7E /* Info.plist */,
 				D9BE05501E12823C00BF44DC /* AppDelegate.swift */,
 				D9BE05521E12823C00BF44DC /* ViewController.swift */,
 				D9BE05541E12823C00BF44DC /* Main.storyboard */,
 				D9BE05571E12823C00BF44DC /* Assets.xcassets */,
 				D9BE05591E12823C00BF44DC /* LaunchScreen.storyboard */,
-				D9BE055C1E12823C00BF44DC /* Info.plist */,
-				D91F2A571E6DB808008A0E74 /* GoogleService-Info.plist */,
+				7D804A9F1E6EC19B004B945C /* GoogleService-Info.plist */,
 			);
 			path = "GoApéro";
 			sourceTree = "<group>";
@@ -145,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				D9BE05651E12823C00BF44DC /* GoApe_roTests.swift */,
-				D9BE05671E12823C00BF44DC /* Info.plist */,
 			);
 			path = "GoApéroTests";
 			sourceTree = "<group>";
@@ -185,6 +182,7 @@
 				D9BE054B1E12823C00BF44DC /* Resources */,
 				D3D29FBB5AAD165B0E09E5D2 /* [CP] Embed Pods Frameworks */,
 				C938B9D7274B15B5FAAB606D /* [CP] Copy Pods Resources */,
+				7DB5DFF91E74276000B1A449 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -290,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BE055B1E12823C00BF44DC /* LaunchScreen.storyboard in Resources */,
-				D91F2A581E6DB808008A0E74 /* GoogleService-Info.plist in Resources */,
+				7D804AA01E6EC19B004B945C /* GoogleService-Info.plist in Resources */,
 				D9BE05581E12823C00BF44DC /* Assets.xcassets in Resources */,
 				D9BE05561E12823C00BF44DC /* Main.storyboard in Resources */,
 			);
@@ -300,7 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91F2A591E6DB808008A0E74 /* GoogleService-Info.plist in Resources */,
+				7D46DEF21E78340F00119E7E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91F2A5A1E6DB808008A0E74 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +356,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		7DB5DFF91E74276000B1A449 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 11aeb01850b0d71766e5ee3cb3a2ed64a500eb4e 210194ec83818ca2df8d83fd19d790cf06423d92dcbb39fc606bca563d83b355";
 		};
 		827708D0DCEF16CC6BA089CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

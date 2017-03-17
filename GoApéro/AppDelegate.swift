@@ -8,6 +8,12 @@
 
 import UIKit
 import Firebase
+import FBSDKCoreKit
+import Fabric
+import TwitterKit
+import TwitterCore
+import FBSDKLoginKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +25,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         //Pour connecter Firebase au démarrage de votre application, ajoutez le code d'initialisation ci-dessous à votre classe AppDelegate principale.
         FIRApp.configure()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        Twitter.sharedInstance().start(withConsumerKey: "aeMVy7lNwAjqi2y9ha8IC3M6Y", consumerSecret: "hPlM7mBupu9YAqXLJ4avkJMl53bmfwFqwRpmoycjFkCNACePAu")
+        Fabric.with([Twitter.self])
         return true
+    }
+    
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+        
+        return handled
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
